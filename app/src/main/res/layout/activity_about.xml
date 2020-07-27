@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    tools:context="me.you.thinking_fast.setting"
+    android:background="@drawable/back_style1">
+
+
+    <me.you.thinking_fast.custom.header_title
+        android:elevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/font11"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="حول التطبيق "/>
+
+
+    </me.you.thinking_fast.custom.header_title>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="sett_fram"
+        android:background="@drawable/frame_style4"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="12dp"
+            android:src="@mipmap/icon_logo4" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:padding="12dp"
+    android:text="@string/app_disc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:text="@string/app_disc1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:text="@string/app_disc2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:text="@string/app_disc3"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:text="@string/app_developer"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/FB_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@drawable/link1"
+        android:background="@android:color/transparent"
+        android:text="(FB:Younes Y. Khafaja)"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"/>
+
+
+
+    <Button
+        android:id="@+id/SE_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@drawable/link1"
+        android:background="@android:color/transparent"
+        android:text="send Suggestion"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"/>
+
+
+
+
+</LinearLayout>

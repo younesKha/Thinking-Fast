@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.you.thinking_fast">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_logo4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".start" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".game" android:screenOrientation="portrait" />
+        <activity android:name=".setting" android:screenOrientation="portrait" />
+        <activity android:name=".levels" android:screenOrientation="portrait" />
+        <activity android:name=".about"  android:screenOrientation="portrait" ></activity>
+        <activity android:name=".transtion_activity"  android:screenOrientation="portrait" ></activity>
+        <activity android:name=".conn_error_act"  android:screenOrientation="portrait" ></activity>
+
+
+
+
+    </application>
+
+</manifest>

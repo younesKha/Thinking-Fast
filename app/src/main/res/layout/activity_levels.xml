@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:paddingBottom="6dp"
+    tools:context="me.you.thinking_fast.setting"
+    android:background="@drawable/back_style1">
+
+
+
+    <me.you.thinking_fast.custom.header_title
+        android:elevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity
+            ="center|center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/font11"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="الجولات"/>
+        </me.you.thinking_fast.custom.header_title>
+
+    <LinearLayout
+        android:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:translationY="-10dp"
+        android:background="@drawable/frame_style4">
+
+
+        <ListView
+            android:id="@+id/lv_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

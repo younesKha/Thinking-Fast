@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "122206467350",
+    "firebase_url": "https://think-fast-11c38.firebaseio.com",
+    "project_id": "think-fast-11c38",
+    "storage_bucket": "think-fast-11c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122206467350:android:4d13ec1ca56313c8",
+        "android_client_info": {
+          "package_name": "me.you.thinking_fast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122206467350-bddkk0jrr4mpqvl9gt0cm11h2avb8pre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUKQ8NW2ipxjChsskCkQciM_ExFZNOnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

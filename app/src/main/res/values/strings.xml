@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">فكر بسرعة</string>
+
+
+    <string name="app_disc">  انعش تفطير وفكر بسرعة للاجابة على الاسئلة خلال وقت محدد لا يزيد عن 3 ثواني  .</string>
+
+
+    <string name="app_disc1">تطبيق للتسلية والترفيه  .وايضا للتعلم وجعل تفكير أسرع .</string>
+
+    <string name="app_disc2">التطبيق عبارة عن أسئلة متنوعة رياضيات انجليزي وثقافة عامة
+و حاول الاجابة على الاسئلة بأسرع وقت ممكن للحصول على نسبة تفكير عاليه .
+</string>
+
+    <string name="app_disc3">التطبيق يحتاج انترنت لتحميل الاسئلة لكل مرحلة .. تجربة ممتعة</string>
+
+
+    <string name="man_desc">  كبير فوق 15 سنة </string>
+    <string name="child_desc">طفل من 8 - 15 سنة</string>
+
+    <string name="app_developer">  مطور التطبيق   </string>
+
+    <string name="pls_wait">  جاري التجميل </string>
+    <string name="no_conn_msg">غير متصل بالانترنت!!</string>
+    <string name="try_again">إعادة المحاولة</string>
+    <string name="start_game"> ابـدأ اللعــب </string>
+
+    <string name="_1">الأولى</string>
+    <string name="_2">الثانية</string>
+    <string name="_3">الثالثة</string>
+    <string name="_4">الرابعة</string>
+    <string name="_5">الخامسة</string>
+    <string name="_6">السادسة</string>
+    <string name="_7">السابعة</string>
+    <string name="_8">الثامنة</string>
+    <string name="_9">التاسعة</string>
+    <string name="_10">العاشرة</string>
+    <string name="_11">الحادي عشرة</string>
+    <string name="_12">الثانية عشر</string>
+    <string name="_13">الثالث عشر</string>
+    <string name="_14">الأولى</string>
+    <string name="_15">الأولى</string>
+    <string name="_18">الأولى</string>
+    <string name="_19">الأولى</string>
+    <string name="_20">الأولى</string>
+    <string name="play_offline">استخدام المحفوظه دون اتصال</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-8593693876598913/2502570458</string>
+    <string name="change_sett">يمكنك التعديل لاحقا من خلال الإعدادات</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent_trnas">#80FF4081</color>
+    <color name="blow_dark2">#2e5c8a</color>
+
+
+
+    <color name="gray_light"  >#cccccc</color>
+    <color name="blow_light">#5797fd</color>
+    <color name="blow_light2">#a5badd</color>
+    <color name="blow_dark">#375589</color>
+
+
+
+    <color name="blow">#49a3fd</color>
+
+    <color name="blow_2">#366492</color>
+    <color name="blow_3">#2a93fe</color>
+
+
+    <color name="blow_4">#0453e4</color>
+
+
+    <color name="green_1">#b6ff96</color>
+
+
+
+    <color name="yallow_1">#fcf358</color>
+    <color name="yallow_2">#fceb08</color>
+    <color name="blow_5">#346faa</color>
+
+
+    <color name="white"  >#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layoutDirection="rtl"
+    android:background="@drawable/back_style1"
+    tools:context="me.you.thinking_fast.setting">
+
+
+    <me.you.thinking_fast.custom.header_title
+        android:elevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center|center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/font11"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="الاعدادات  "/>
+    </me.you.thinking_fast.custom.header_title>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layoutDirection="rtl"
+        android:background="@drawable/frame_style4"
+        android:layout_margin="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=" مستوي الاسئلة"
+        android:textSize="15sp"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:weightSum="1">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_gravity="center"
+    android:id="@+id/iv_level"
+    android:layout_height="100dp"
+    />
+
+            <TextView
+                android:id="@+id/lvl_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="طفل من 10 -  15"
+                android:textSize="15sp"
+                android:padding="5dp" />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:padding="7dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_easy"
+            android:background="@drawable/check_btn_style"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="سهل "/>
+
+        <Button
+            android:text="متقدم"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_hard"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/check_btn_style"
+            android:layout_weight="1"
+            android:elevation="0dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text=" الصوت"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+        <Switch
+            android:text="المؤثرات الصوتية"
+            android:textSize="15sp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch_sound" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sett_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الأعدادات"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+
+</LinearLayout>

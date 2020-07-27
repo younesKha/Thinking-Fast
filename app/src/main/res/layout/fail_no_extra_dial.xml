@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ccf"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:src="@drawable/no_extra"
+        android:id="@+id/imageView"
+
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:text="أعد المحاولة"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+
+        android:id="@+id/retry_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@drawable/btn_style1"
+
+        android:layout_width="80pt" />
+
+    <Button
+        android:text="الرئيسة"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:id="@+id/main_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@drawable/btn_style1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+
+        android:layout_width="80pt" />
+
+</LinearLayout>
