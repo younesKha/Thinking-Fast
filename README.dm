@@ -4,3 +4,6 @@
 -https://play.google.com/store/apps/details?id=me.you.thinking_fast&hl=ar
 
 
+
+(https://www.facebook.com/Thinkfast2018/videos/785306464993768/)
+
