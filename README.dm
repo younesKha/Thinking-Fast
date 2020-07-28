@@ -3,7 +3,7 @@
 
 -https://play.google.com/store/apps/details?id=me.you.thinking_fast&hl=ar
 
-![Image of Yaktocat](https://www.facebook.com/Thinkfast2018/videos/785306464993768/)
+![Image of Yaktocat](https://i.imgur.com/ZVr2osk.gif)
 
 
 
